@@ -1,0 +1,49 @@
+header{ 
+    background-color: #F9EBC8;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;    
+    color: black;
+    text-align: center;
+    
+}
+nav{
+    background-color: #FEFBE7;
+    color: black;
+}
+section{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+article{
+    background-color: #DAE5D0;
+    grid-column:1/4 ;
+    
+}
+aside{
+    background-color:  #FEFBE7;
+    grid-column:4/5 ;
+}
+footer{
+    background-color: #A0BCC2;
+    color: brown;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+@media screen and (max-width:600px) {
+    header{
+        flex-direction: column;
+    }
+    
+    
+}
